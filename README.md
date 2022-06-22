@@ -40,7 +40,7 @@
 
 #### Minting NFT
 
-1. https://www.pinata.cloud/를 이용해 NFT에 사용 할 이미지를 업로드 합니다. [자세한 내용](https://velog.io/@-__-/sol6#truffle%EC%97%90%EC%84%9C-nft-%EB%B0%9C%ED%96%89%ED%95%98%EA%B8%B0)
+1. https://www.pinata.cloud/ 를 이용해 NFT에 사용 할 이미지를 업로드 합니다. [자세한 내용](https://velog.io/@-__-/sol6#truffle%EC%97%90%EC%84%9C-nft-%EB%B0%9C%ED%96%89%ED%95%98%EA%B8%B0)
 2. 업로드 한 ipfs 이미지를 json 파일로 다시 한번 감싸서, 다시 ipfs에 배포합니다. (`pinata-test.json` 파일 참고 해주세요)
 3. truffle(rinkeby)> `instance.mintNFT("ipfs://IFPS-FILE-CID", { from: accounts[0] })`
 
